@@ -12,8 +12,6 @@ class Student:
         print('Subject Code:', self.subscode)
  
 
- 
- 
 class Information(Student):
     def __init__(self, name, srcode, section, subscode):
         self.section = section
